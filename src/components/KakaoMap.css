@@ -1,0 +1,93 @@
+.map_wrap {
+    position: relative;
+}
+
+.kakaomap {
+    width: 100%;
+    height: 400px;
+}
+
+/* 텍스트상자 */
+.wrap {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: -35px;
+    bottom: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color:white;
+    border-radius: 5px;
+}
+.wrap .info {
+    /* overflow: hidden; */
+}
+.info .title {
+    padding: 5px 10px ;
+    font-size: 12px;
+    font-weight: 600;
+}
+.info .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #888;
+    width: 8px;
+    height: 8px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/overlay_close.png');
+    background-size: cover;
+}
+.info .close:hover {cursor: pointer;}
+.info:after {
+    content: '';
+    position: absolute;
+    margin-left: -12px;
+    left: 50%;
+    bottom: -12px;
+    width: 22px;
+    height: 12px;
+    background: url('https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png');
+}
+
+/* 줌 버튼 */
+.custom_zoomcontrol {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 36px;
+    height: 80px;
+    background-color: #f5f5f5;
+    display: block;
+    z-index: 2;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.custom_zoomcontrol div {
+    width:36px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;    
+}
+
+.custom_zoomcontrol img {
+    height: 20px;
+    width:20px;
+    border: none;
+}
+
+.custom_zoomcontrol div:first-child{border-bottom:1px solid #bfbfbf;}
+
+
+@media (max-width: 768px) {
+
+    .kakaomap {
+    
+        height: 300px;
+    }
+    
+}

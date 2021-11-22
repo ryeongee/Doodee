@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Route } from 'react-router';
+import Header from './pages/Header';
+import Estimates from './pages/Estimates';
+import Home from './pages/Home';
+import Process from './pages/Process';
+import Projects from './pages/Projects';
+import Contact from './pages/Contact';
+import Commercial from './pages/Commercial';
+import Housing from './pages/Housing';
+import Footer from './Footer/Footer'
+import View1 from './ProjectPage/Housing/View1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Route exact path='/' component={Home} />
+      <Route path='/process' component={Process} />
+      <Route path='/projects' component={Projects} />
+      <Route path='/housing' component={Housing} />
+      <Route path='/commercial' component={Commercial} />
+      <Route path='/estimates' component={Estimates} />
+      <Route path='/contact' component={Contact} />
+      <Route path='/view/1' component={View1} />
+      <Footer/>
+    </>
   );
 }
 

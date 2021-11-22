@@ -1,0 +1,19 @@
+.commercial {
+    padding-top: 80px;
+}
+
+.commercial_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 80px;
+}
+
+
+/* MEDIA */
+@media (max-width: 1024px) {
+    .commercial {
+        padding-top: 0;
+    }
+
+}
