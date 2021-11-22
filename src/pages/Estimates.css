@@ -235,12 +235,15 @@ button{
         font-size: 20px;
         height: 100px;
     }
+    .third-container-item{
+        padding: 0 0 0 0;
+    }
     .Explanation-container span{
         font-size: 10px;
     }
-    input{
+    input, select{
         font-size: 13px;
-        width:1fr;
+        width:100%;
     }
     input[type=checkbox]{
         position: relative;
