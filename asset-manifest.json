@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Doodee/static/css/main.8711a4d2.chunk.css",
+    "main.css": "/Doodee/static/css/main.73537620.chunk.css",
     "main.js": "/Doodee/static/js/main.2dcfa965.chunk.js",
     "main.js.map": "/Doodee/static/js/main.2dcfa965.chunk.js.map",
     "runtime-main.js": "/Doodee/static/js/runtime-main.b07efc48.js",
@@ -10,13 +10,13 @@
     "static/js/3.9caa1894.chunk.js": "/Doodee/static/js/3.9caa1894.chunk.js",
     "static/js/3.9caa1894.chunk.js.map": "/Doodee/static/js/3.9caa1894.chunk.js.map",
     "index.html": "/Doodee/index.html",
-    "static/css/main.8711a4d2.chunk.css.map": "/Doodee/static/css/main.8711a4d2.chunk.css.map",
+    "static/css/main.73537620.chunk.css.map": "/Doodee/static/css/main.73537620.chunk.css.map",
     "static/js/2.ede50b43.chunk.js.LICENSE.txt": "/Doodee/static/js/2.ede50b43.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b07efc48.js",
     "static/js/2.ede50b43.chunk.js",
-    "static/css/main.8711a4d2.chunk.css",
+    "static/css/main.73537620.chunk.css",
     "static/js/main.2dcfa965.chunk.js"
   ]
 }
