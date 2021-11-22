@@ -15,16 +15,14 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route exact path='/' component={Home} />
-        <Route path='/process' component={Process} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/housing' component={Housing} />
-        <Route path='/commercial' component={Commercial} />
-        <Route path='/estimates' component={Estimates} />
-        <Route path='/contact' component={Contact} />
-        <Route path='/view/1' component={View1} />
-      </Routes>
+      <Route exact path='/' component={Home} />
+      <Route path='/process' component={Process} />
+      <Route path='/projects' component={Projects} />
+      <Route path='/housing' component={Housing} />
+      <Route path='/commercial' component={Commercial} />
+      <Route path='/estimates' component={Estimates} />
+      <Route path='/contact' component={Contact} />
+      <Route path='/view/1' component={View1} />
       <Footer/>
     </>
   );
