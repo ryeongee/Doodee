@@ -238,4 +238,17 @@ button{
     .Explanation-container span{
         font-size: 10px;
     }
+    input{
+        font-size: 13px;
+        width:1fr;
+    }
+    input[type=checkbox]{
+        position: relative;
+        top:0%;
+        width:20px;
+        height: 20px;
+    }
+    .checkbox-container{
+        margin-top: 10px;
+    }
 }
