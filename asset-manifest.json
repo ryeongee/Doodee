@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Doodee/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Doodee/static/js/main.ca0dc520.chunk.js",
+    "main.js.map": "/Doodee/static/js/main.ca0dc520.chunk.js.map",
+    "runtime-main.js": "/Doodee/static/js/runtime-main.2b27c154.js",
+    "runtime-main.js.map": "/Doodee/static/js/runtime-main.2b27c154.js.map",
+    "static/js/2.43c5cea5.chunk.js": "/Doodee/static/js/2.43c5cea5.chunk.js",
+    "static/js/2.43c5cea5.chunk.js.map": "/Doodee/static/js/2.43c5cea5.chunk.js.map",
+    "static/js/3.75d37e7a.chunk.js": "/Doodee/static/js/3.75d37e7a.chunk.js",
+    "static/js/3.75d37e7a.chunk.js.map": "/Doodee/static/js/3.75d37e7a.chunk.js.map",
+    "index.html": "/Doodee/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Doodee/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.43c5cea5.chunk.js.LICENSE.txt": "/Doodee/static/js/2.43c5cea5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Doodee/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b27c154.js",
+    "static/js/2.43c5cea5.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.ca0dc520.chunk.js"
+  ]
+}
