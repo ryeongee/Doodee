@@ -238,18 +238,39 @@ button{
     .third-container-item{
         padding: 0 0 0 0;
     }
+    .Explanation-container{
+        width: 375px;
+        margin-left: 0;
+    }
     .Explanation-container span{
         font-size: 10px;
     }
     input, select{
         font-size: 13px;
-        width:100%;
+        width:300px;
     }
     input[type=checkbox]{
         position: relative;
         top:0%;
         width:20px;
         height: 20px;
+    }
+    button:focus{
+        background-color:black;
+    }
+    .ipt_top {
+        width: 100%;
+        height: 60px;
+    }
+    .grid-item{
+        margin-bottom: 30px;
+    }
+    .grid-item:nth-child(9){
+        display: block;
+        width: 300px;
+    }
+    .grid-item:nth-child(9) input{
+        padding-bottom: 30px;
     }
     .checkbox-container{
         margin-top: 10px;

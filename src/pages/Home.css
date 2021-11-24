@@ -71,6 +71,8 @@
     }
 
     .home-video {
+        height: 0;
+        margin-left: -999px;
         display: none;
     }
 
