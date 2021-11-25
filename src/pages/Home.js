@@ -2,12 +2,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 // import GifPlayer from "react-gif-player";
 import './Home.css';
-const rp = document.getElementsByTagName('ReactPlayer');
 const Home = () => {
-    const set_state=()=>{
-        console.log('stop!');
-        console.log(rp.defaultProps);
-    }
     return (
         <div className='home'>
             <div className='home-background-image'>
@@ -50,7 +45,6 @@ const Home = () => {
                     controls= {false}
                     pip={false}
                     muted={true}
-                    onReady={set_state}
                 />
                 {/* <GifPlayer 
                     gif='./commercial.gif'
