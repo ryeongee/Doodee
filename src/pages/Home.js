@@ -2,8 +2,12 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 // import GifPlayer from "react-gif-player";
 import './Home.css';
-
+const rp = document.getElementsByTagName('ReactPlayer');
 const Home = () => {
+    const set_state=()=>{
+        console.log('stop!');
+        console.log(rp.defaultProps);
+    }
     return (
         <div className='home'>
             <div className='home-background-image'>
@@ -37,13 +41,16 @@ const Home = () => {
                     </source>
                 </video> */}
                 <ReactPlayer 
-                    url='https://video.wixstatic.com/video/f1b974_7ee45bc0a5dc4eb980d5970b6b0f924b/720p/mp4/file.mp4'
+                    className='reactPlayer'
+                    url={'https://video.wixstatic.com/video/f1b974_7ee45bc0a5dc4eb980d5970b6b0f924b/720p/mp4/file.mp4'}
                     width= '100%'
-                    height= '360px'
-                    playing= 'true'
-                    loop= 'true'
-                    controls= 'false'
-                    pip='false'
+                    height= '100%'
+                    loop= {true}
+                    playing= {true}
+                    controls= {false}
+                    pip={false}
+                    muted={true}
+                    onReady={set_state}
                 />
                 {/* <GifPlayer 
                     gif='./commercial.gif'
