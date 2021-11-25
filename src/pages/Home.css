@@ -36,9 +36,9 @@
 }
 .home-video .video-cover{
     width: 100%;
-    height: 360px;
+    height: 380px;
     position: relative;
-    top:-360px;
+    top:-370px;
 }
 
 .footer {
