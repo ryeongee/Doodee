@@ -43,6 +43,7 @@ const Home = () => {
                     playing= 'true'
                     loop= 'true'
                     controls= 'false'
+                    pip='false'
                 />
                 {/* <GifPlayer 
                     gif='./commercial.gif'
