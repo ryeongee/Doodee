@@ -32,7 +32,7 @@ const Header = () => {
         <>
         <div className='header'>
             <div className='logo' onClick={toggleOff}>
-                <Link to='/'>
+                <Link to='./'>
                     <img 
                         src = 'https://static.wixstatic.com/media/f1b974_dffb61ce0016439e92f499e66e57a716~mv2.png/v1/fill/w_243,h_62,al_c,q_85,usm_0.66_1.00_0.01/logo.webp'
                         alt = 'doodee logo'
