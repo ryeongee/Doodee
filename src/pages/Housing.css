@@ -70,4 +70,7 @@ figcaption {
     .housing_grid_container {
         grid-template-columns: repeat(1, min-content);
     }
+    h1{
+        font-size: 20px;
+    }
 }
