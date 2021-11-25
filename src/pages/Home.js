@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPlayer from 'react-player';
+// import GifPlayer from "react-gif-player";
 import './Home.css';
 
 const Home = () => {
@@ -43,6 +44,11 @@ const Home = () => {
                     loop= 'true'
                     controls= 'false'
                 />
+                {/* <GifPlayer 
+                    gif='./commercial.gif'
+                    autoplay='true'
+                /> */}
+                <div className="video-cover"></div>
             </div>
             <div className='footer'> 
                 <div className='home-footer'>
