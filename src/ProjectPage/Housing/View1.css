@@ -1,0 +1,38 @@
+.view_1 {
+    padding-top: 80px;
+    width: 100%;
+    max-width: 1290px;
+    
+}
+
+.description {
+    display: flex;
+    width: 100%;
+    max-width: 1290px;
+    margin: 80px auto;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.description .desc_items {
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+.description .desc_contents {
+
+}
+
+.project_pic {
+    text-align: center;
+}
+
+.project_pic li img {
+    width: 60%;
+    margin: 20px 0;
+    
+}
+
+.list_btns {
+
+}

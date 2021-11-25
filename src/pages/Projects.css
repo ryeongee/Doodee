@@ -1,0 +1,129 @@
+.projects {
+    padding-top: 80px;
+}
+
+.projects_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 80px;
+}
+
+.projects_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.housing_link .housing_btn {
+    width: 480px;
+    height: 280px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 50px;
+}
+
+.housing_link .housing_btn img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.housing_link .housing_btn .housing_btn_background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(15, 15, 15, 0.4);
+    z-index: 10;
+
+}
+
+.housing_link .housing_btn .housing_btn_box {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    z-index: 100;
+}
+
+.housing_link .housing_btn .housing_btn_box:hover {
+    background-color: rgba(15, 15, 15, 0.6);
+    transition: 0.5s;
+}
+
+
+.commercial_link .commercial_btn {
+    width: 480px;
+    height: 280px;
+    cursor: pointer;
+    position: relative;
+}
+
+.commercial_link .commercial_btn img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.commercial_link .commercial_btn .commercial_btn_background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(15, 15, 15, 0.4);
+    z-index: 10;
+
+}
+
+.commercial_link .commercial_btn .commercial_btn_box {
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ;
+    z-index: 100;
+}
+
+.commercial_link .commercial_btn .commercial_btn_box:hover {
+    background-color: rgba(15, 15, 15, 0.6);
+    transition: 0.5s;
+}
+
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    margin-top: 200px;
+}
+
+
+/* MEDIA */
+@media (max-width: 1024px) {
+    .projects {
+        padding-top: 0;
+    }
+    .projects_links {
+        display: block;
+        width: 480px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .housing_link {
+        margin-bottom: 50px;
+    }
+}

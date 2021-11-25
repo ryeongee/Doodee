@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.housing {
+    padding-top: 80px;
+}
+
+.housing_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 80px;
+}
+
+.housing_grid_container {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    /* grid-template-columns: repeat(3, minmax(min-content, auto)); */
+    gap: 100px 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.housing_grid_item {
+
+}
+
+.housing_grid_item img {
+    width: 320px;
+    height:320px;
+}
+
+figure {
+    margin: 0;
+    position: relative;
+    display: inline;
+
+
+}
+
+figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+
+
+/* TABLET */
+@media (max-width: 1024px) {
+    .housing {
+        padding-top: 0;
+    }
+
+    .housing_grid_container {
+        grid-template-columns: repeat(2, min-content);
+    }
+}
+
+
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .housing_grid_container {
+        grid-template-columns: repeat(1, min-content);
+    }
+}
